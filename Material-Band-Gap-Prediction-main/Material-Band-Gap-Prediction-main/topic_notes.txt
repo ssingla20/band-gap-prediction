@@ -1,0 +1,29 @@
+bad gap --> 1 val
+e_electronic? --> 3x3 matrix
+e_total? --> 3x3 matrix
+formula?
+refractive index --> 1 val
+nsites --> 1 val
+poly_electronic --> 1 val
+poly_total --> 1 val
+pot_ferroelectric --> boolean
+
+Shall we include structure data too? If so, how to convert it into trainable data?
+
+Unserstanding structure:
+Full Formula = Rb2Te1
+Reduced Formula = Rb2Te
+abc = [6.087322, 6.087322, 6.087323]
+angles = [60.000003, 60.000002, 59.999999]
+pbc = [True, True, True] --> indicates the structure is periodic in each direction
+nsites = 3
+# SP a b c
+0 Rb 0.25 0.25 0.25
+1 Rb 0.75 0.75 0.75
+2 Te 0 0 0 
+
+
+
+0 1 2 6 14 15 16
+
+2b 3f 5b 6f
